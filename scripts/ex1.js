@@ -55,8 +55,8 @@ console.log(top5(sortedFirstAppearence()));
 function newCountryObjects(){
     const arr = getOlympicData();
     return arr.map(item => {return {
-         Nation: item.Nation,
-          Code: item.Code
+         nation: item.Nation,
+          code: item.Code
         }});
 }
 
